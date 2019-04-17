@@ -3,9 +3,10 @@ def prime?(int)
   num = 2 
   while num < int
   if int % num == 0 
-    true 
+   false
+    
   else
-    false 
+    true 
   end
 end
 end
