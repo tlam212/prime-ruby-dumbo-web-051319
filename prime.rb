@@ -4,7 +4,7 @@ def prime?(int)
   while num < int
   if int % num == 0 
    false
-    
+    num += 1
   else
     true 
   end
