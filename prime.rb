@@ -7,6 +7,6 @@ def prime?(int)
     num += 1
   end
     true 
-  end
+  
 end
 end
