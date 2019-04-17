@@ -2,9 +2,9 @@
 def prime?(int)
   (1..(int-1)).each do |number|
     if int % number == 0
-      true
+      false
     else
-      false 
+      true
       
   end
 end
